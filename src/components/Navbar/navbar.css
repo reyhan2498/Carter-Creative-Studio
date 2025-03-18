@@ -17,6 +17,7 @@
     font-size: 1.3rem;
     font-weight: bold;
   }
+
   .n-right {
     flex: 1;
     display: flex;
@@ -28,6 +29,7 @@
   .n-list {
     flex: 10;
   }
+  
   .n-list > ul {
     display: flex;
     gap: 2rem;

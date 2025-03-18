@@ -1,4 +1,4 @@
-.intro{
+.Intro{
     display: flex;
     margin-top: 6rem;
     height: 77vh;
@@ -9,6 +9,7 @@
     position: relative;
     flex: 1;
     flex-direction: column;
+    gap: 2rem;
 }
 
 .i-name{
@@ -45,8 +46,40 @@
 .i-icons{
     display: flex;
     margin-top: 3rem;
-    gap: 1rem;
+    gap: 0rem;
 }
+
+.i-icons>*{
+    transform: scale(0.5);
+}
+
+.i-icons>*:hover{
+    cursor: pointer;
+}
+
 .i-right{
     flex: 1;
+    position: relative;
+}
+
+.i-right>*{
+    position: absolute;
+    z-index: 1;
+}
+
+.i-right>:nth-child(1){
+    left: -15%;
+    transform: scale(0.69);
+    top: -9%;
+}
+
+.i-right>:nth-child(2){
+    left: -3rem;
+    transform: scale(0.67);
+    top: -4.6rem;
+}
+
+.i-right>:nth-child(3){
+    left: 28%;
+    transform: scale(1.4);
 }
