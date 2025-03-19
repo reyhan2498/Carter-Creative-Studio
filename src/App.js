@@ -1,6 +1,6 @@
-import Navbar from "./components/Navbar/Navbar";
-import Intro from "./components/Intro/Intro";
-import Services from "./components/Services/Services";
+import Navbar from "./components/Navbar/navbar";
+import Intro from "./components/Intro/intro";
+import Services from "./components/Services/services";
 import "./App.css";
 import Experience from "./components/Experience/Experience";
 import Works from "./components/Works/Works";

@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
-import "./Services.css";
-import Card from "../Card/Card";
+import "./services.css";
+import Card from "../Card/card";
 import HeartEmoji from "../../img/heartemoji.png";
 import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
@@ -24,12 +24,13 @@ const Services = () => {
       {/* left side */}
       <div className="awesome">
         {/* dark mode */}
-        <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
-        <span>services</span>
+        <span style={{ color: darkMode ? "white" : "" }}>Creative</span>
+        <span>Design Services</span>
         <spane>
-          Lorem ispum is simpley dummy text of printing of printing Lorem
+          Transforming ideas into visual masterpieces with a unique blend of
+          creativity and precision.
           <br />
-          ispum is simpley dummy text of printing
+          Specializing in branding, illustration, and UI/UX design.
         </spane>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
@@ -46,8 +47,8 @@ const Services = () => {
         >
           <Card
             emoji={HeartEmoji}
-            heading={"Design"}
-            detail={"Figma, Sketch, Photoshop, Adobe Illustrator, Adobe xd"}
+            heading={"Branding & Identity"}
+            detail={"Logo Design, Brand Guidelines, Visual Storytelling"}
           />
         </motion.div>
         {/* second card */}
@@ -58,8 +59,8 @@ const Services = () => {
         >
           <Card
             emoji={Glasses}
-            heading={"Developer"}
-            detail={"Html, Css, JavaScript, React, Nodejs, Express"}
+            heading={"Digital Art & Illustration"}
+            detail={"Custom Illustrations, Concept Art, Social Media Graphics"}
           />
         </motion.div>
         {/* 3rd */}
@@ -72,7 +73,7 @@ const Services = () => {
             emoji={Humble}
             heading={"UI/UX"}
             detail={
-              "Lorem ispum dummy text are usually use in section where we need some random text"
+              "Creating intuitive, visually appealing, and user-friendly digital experiences."
             }
             color="rgba(252, 166, 31, 0.45)"
           />

@@ -21,18 +21,21 @@ const Works = () => {
         <div className="awesome">
           {/* dark Mode */}
           <span style={{ color: darkMode ? "white" : "" }}>
-            Works for All these
+            Designed for These
           </span>
           <span>Brands & Clients</span>
           <spane>
-            Lorem ispum is simpley dummy text of printing of printing Lorem
+            I’ve had the privilege of working with various brands, helping them 
             <br />
-            ispum is simpley dummy text of printingLorem ispum is simpley dummy
-            text
+            establish a unique and professional visual identity.
             <br />
-            y dummy text of printingLorem
+            From crafting eye-catching logos to full branding solutions, I ensure that every 
             <br />
-            ispum is simpley dummy text of printing
+            design aligns with my clients’ vision and goals.
+            <br />
+            Whether it’s a startup, an established business, or a creative project,
+            <br />
+            I bring creativity and precision to every design.
           </spane>
           <Link to="contact" smooth={true} spy={true}>
             <button className="button s-button">Hire Me</button>
