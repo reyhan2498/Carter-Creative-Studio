@@ -31,9 +31,20 @@ return (
             <img src={Vector2} alt="" className="i-vector2" />
             <img src={Vector1} alt="" className="i-vector1" />
             <img src={boy} alt="" />
-            <div>
-                <FloatingDiv img={Crown} txt1="Graphic" txt2="Designer" />
+            <img src={glassesimoji} alt=""/>
+            <div style={{top: '-4%', left: '60%'}}>
+                <FloatingDiv image={Crown} txt1="Graphic" txt2="Designer" />
             </div>
+            <div style={{top: '18rem', left: '0rem'}}>
+                <FloatingDiv image={thumbup} txt1="Best Design" txt2="Award" />
+            </div>
+            <div className="blur" style={{background: "rgb (238 210 255)"}}></div>
+            <div className="blur" style={{
+                background: "#C1F5FF", 
+                top: '17rem', 
+                width: '21rem', 
+                height: '11rem', 
+                left: '-9rem'}}></div>
         </div>
     </div>
 )

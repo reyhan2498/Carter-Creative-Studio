@@ -83,3 +83,23 @@
     left: 28%;
     transform: scale(1.4);
 }
+
+.i-right>:nth-child(4){
+    transform: scale(0.5);
+    top: -13%;
+    left: -20%;
+    border-radius: 50%;
+    padding: 0;
+}
+
+.blur{
+    position: absolute;
+    width: 22rem;
+    height: 14rem;  
+    border-radius: 50%;
+    background: #edd0ff;
+    z-index: -9;
+    top: -18%;
+    left: 56%;
+    filter: blur(212px);
+}
